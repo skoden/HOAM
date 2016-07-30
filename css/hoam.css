@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.wrapper {
+	min-height:100%;
+	height:auto !important;
+	height:100%;
+	margin: 0 auto -4em;
+}
+
+/* Nav Bar Stuffs **************************************** */
+.navbar-hoam {
+  background-color: #fff;
+  border-color: #036ec1;
+  border-bottom-width:3px;
+  margin-bottom:0px;
+}
+.navbar-hoam .navbar-brand {
+  font-size: 32px;
+  color: #036ec1;
+  margin-bottom: 63px;
+}
+.navbar-hoam .navbar-brand:hover,
+.navbar-hoam .navbar-brand:focus {
+    color: #036ec1;
+    background-color: transparent;
+	
+    
+}
+.navbar-hoam .navbar-text {
+	
+  color: #036ec1;
+}
+.navbar-hoam .navbar-nav > li > a {
+  color: #036ec1;
+  margin-top:25px;
+  font-size:18px;
+}
+.navbar-hoam .navbar-nav > li > a:hover,
+.navbar-hoam .navbar-nav > li > a:focus {
+  color: #3399cc;
+  background-color: transparent;
+}
+.navbar-hoam .navbar-nav > .active > a,
+.navbar-hoam .navbar-nav > .active > a:hover,
+.navbar-hoam .navbar-nav > .active > a:focus {
+  color: #3399cc;
+  background-color: #080808;
+}
+.navbar-hoam .navbar-nav > .disabled > a,
+.navbar-hoam .navbar-nav > .disabled > a:hover,
+.navbar-hoam .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+.navbar-hoam .navbar-toggle {
+  border-color: #333;
+}
+.navbar-hoam .navbar-toggle:hover,
+.navbar-hoam .navbar-toggle:focus {
+  background-color: #333;
+}
+.navbar-hoam .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-hoam .navbar-collapse,
+.navbar-hoam .navbar-form {
+  border-color: #000;
+}
+.navbar-hoam .navbar-nav > .open > a,
+.navbar-hoam .navbar-nav > .open > a:hover,
+.navbar-hoam .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #3399cc;
+}
+
+.navbar-toggle {
+	background-color: 036ec1;
+}
+
+@media (max-width: 767px) {
+  .navbar-hoam .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #080808;
+  }
+  .navbar-hoam .navbar-nav .open .dropdown-menu .divider {
+    background-color: #080808;
+  }
+  .navbar-hoam .navbar-nav .open .dropdown-menu > li > a {
+    color: #999;
+  }
+  .navbar-hoam .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-hoam .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #036ec1;
+    background-color: transparent;
+  }
+  .navbar-hoam .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-hoam .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-hoam .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #080808;
+  }
+  .navbar-hoam .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-hoam .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-hoam .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444;
+    background-color: transparent;
+  }
+}
+.navbar-hoam .navbar-link {
+  color: #999;
+}
+.navbar-hoam .navbar-link:hover {
+  color: #fff;
+}
+.page-header .h1{
+	color:#036ec1:
+}
+
+/**** Footer Stuff****************/
+.hoam-footer {
+	color:036ec1;
+	font-size:18px;
+}
+
+
+.hoam-footer h4{
+	font-size:24px;
+}
+
+h1 {
+	color:036ec1;
+}
+
+p{
+	font-size:18px;
+}
+
+
+/****** BackGround stuff **********/
+
+.hoamcon{
+	background-color: rgba(245, 245, 245, 0.9);
+	
+} 
+
+.backgroundphoto{
+	background-color: transparent; 
+	background: url('../img/HOAs.jpg') no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.hoamform{
+	max-width:400px;
+	text-align:center;
+}
